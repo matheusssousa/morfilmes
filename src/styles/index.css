@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-body{
+    @apply w-full h-full min-h-[100vh] bg-preto-100 px-2 py-2 relative
+}
+
+.overlay{
+    @apply w-full h-full bg-preto-100 absolute top-0 left-0 z-10 backdrop-blur-md bg-opacity-35
+}
